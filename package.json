@@ -19,5 +19,8 @@
   "homepage": "https://github.com/lucasdlp/Portfolio#readme",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5"
   }
 }

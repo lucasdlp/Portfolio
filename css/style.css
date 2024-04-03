@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Romantica;
+  src: url("../assets/fonts/romantica.otf");
+}
+
+@font-face {
+  font-family: Genesys;
+  src: url("../assets/fonts/Genesys.ttf");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
