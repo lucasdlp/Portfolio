@@ -6,14 +6,28 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>Document</title>
   </head>
-  <body class="flex items-center flex-col w-screen h-screen">
+  <body
+    class="flex items-center flex-col w-screen h-screen overflow-x-hidden relative"
+  >
     <section
-      class="w-full h-full bg-black bg-gradient-to-b from-[#000] to-[#184532b9]"
+      class="w-full h-full bg-black bg-gradient-to-b from-[#000] to-[#184532b9] z-[0] relative"
     >
-      <div class="flex flex-col gap-0">
-        <h1 class="text-primary font-romantica text-[30vw] m-0">Lucas</h1>
-        <h2 class="text-black font-genesys text-[150px] m-0">Deleporte</h2>
+      <div class="flex flex-col gap-0 w-[80%] h-[60%] mx-auto my-0">
+        <h1
+          class="text-primary leading-none font-romantica text-[30vw] tracking-wider select-none m-0 relative z-[2]"
+        >
+          Lucas
+        </h1>
+        <h2
+          class="text-white leading-none font-genesys text-[6vw] m-0 select-none translate-y-[-90%] relative z-[2]"
+        >
+          Deleporte
+        </h2>
       </div>
     </section>
+    <div id="particles-js" class="w-full h-full absolute z-[1]"></div>
+
+    <script src="./js/particles/particles.js"></script>
+    <script src="./js/particles/app.js"></script>
   </body>
 </html>
